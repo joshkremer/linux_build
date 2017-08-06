@@ -17,3 +17,8 @@ apt install -y zsh
 apt install -y terminator
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
+# install Zenburn theme for terminator
+mkdir -p ~/.config/terminator/
+git clone https://github.com/alinmindroc/Zenburn-for-Terminator
+cp Zenburn-for-Terminator/config ~/.config/terminator/
+
