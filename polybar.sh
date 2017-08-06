@@ -14,7 +14,7 @@ sudo apt install -y xcb-ewmh
 sudo apt install -y xcb-icccm
 sudo apt install -y xcb-image
 sudo get install -y libxcb-ewmh-dev
-sudo get install -y python-xcbgen
+sudo apt install -y python-xcbgen
 sudo get install -y doxygen
 sudo get install -y libcairo2-dev
 sudo get install -y libxcb-xkb-dev
