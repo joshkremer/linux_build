@@ -13,7 +13,7 @@ sudo apt install -y xcb-proto
 sudo apt install -y xcb-ewmh
 sudo apt install -y xcb-icccm
 sudo apt install -y xcb-image
-sudo get install -y libxcb-ewmh-dev
+sudo apt install -y libxcb-ewmh-dev
 sudo apt install -y python-xcbgen
 sudo apt install -y doxygen
 sudo apt install -y libcairo2-dev
