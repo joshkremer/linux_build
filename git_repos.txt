@@ -1,0 +1,2 @@
+git clone https://github.com/joshkremer/linux_build.git
+git clone https://github.com/joshkremer/dotfiles.git
