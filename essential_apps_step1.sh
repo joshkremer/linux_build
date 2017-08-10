@@ -18,4 +18,9 @@ apt install -y terminator
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 # proceed to step 2
-echo "don't forget to run essential_apps_step2.sh"
+
+chsh -s `which zsh`
+
+echo "done .... proceed to restart then run essential_apps_step2.sh
+
+echo sleep 15"
