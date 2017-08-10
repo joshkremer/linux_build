@@ -1,4 +1,4 @@
-#!/bin/bash
+#/bin/bash
 
 # run with sudo
 
@@ -11,6 +11,8 @@ cp Zenburn-for-Terminator/config ~/.config/terminator/
 
 apt update -y
 apt upgrade -y
+apt-file update -y
+sudo chsh -s $(which zsh)
 
 # proceed to step 2
 echo "DONE!"
