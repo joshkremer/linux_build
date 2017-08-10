@@ -13,6 +13,7 @@ apt update -y
 apt upgrade -y
 sudo apt-file update -y
 sudo chsh -s $(which zsh)
+sudo apt-file update -y
 
 # proceed to step 2
 echo "DONE!"
