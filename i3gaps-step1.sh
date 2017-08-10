@@ -8,7 +8,8 @@
 apt-get update -q
 apt-get upgrade -q -y
 
-# install i3-gaps from source
+# install rofi launcher
+apt install -y rofi
 
 # clone the repository
 sudo git clone https://github.com/o4dev/i3.git
